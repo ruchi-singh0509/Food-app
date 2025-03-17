@@ -1,4 +1,5 @@
 # Backend
+URL : https://food-app-backend-6vz3.onrender.com
 
 ## Installation
 
@@ -59,6 +60,7 @@ npm test
 ```
 
 # Admin
+URL : https://food-app-admin-xv9o.onrender.com
 
 ## Installation
 
@@ -116,6 +118,7 @@ npm run lint
 ```
 
 # Frontend
+URL: https://food-app-frontend-m155.onrender.com
 
 ## Installation
 
