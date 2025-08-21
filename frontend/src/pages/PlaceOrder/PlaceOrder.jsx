@@ -4,6 +4,7 @@ import { useContext} from 'react'
 import { StoreContext } from '../../context/StoreContext'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
+import SEO from '../../components/SEO/SEO';
 
 const PlaceOrder = () => {
   const { getTotalCartAmount, token, food_list, cartItems, url } = useContext(StoreContext)
@@ -72,6 +73,11 @@ const PlaceOrder = () => {
 
   return (
     <form onSubmit={placeOrder} className='place-order'>
+      <SEO 
+        title="Checkout - Complete Your Order"
+        description="Complete your food order by providing delivery information and payment details. Secure checkout process."
+        keywords="food checkout, order completion, food delivery, payment, secure checkout"
+      />
       <div className="place-order-left">
         <p className="title">Delivery Information</p>
         <div className="multi-fields">

@@ -3,6 +3,7 @@ import './MyOrders.css'
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import { assets } from '../../assets/assets';
+import SEO from '../../components/SEO/SEO';
 
 const MyOrders = () => {
     const { url, token } = useContext(StoreContext);
@@ -22,6 +23,11 @@ const MyOrders = () => {
 
     return (
         <div className='my-orders'>
+            <SEO 
+                title="My Orders - Track Your Food Deliveries"
+                description="View and track your food orders. Check order status, delivery details, and order history."
+                keywords="order tracking, food delivery status, order history, my orders"
+            />
             <h2>My Orders</h2>
             <div className="container">
                 {data.map((order, index) => (

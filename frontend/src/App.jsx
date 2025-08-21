@@ -1,13 +1,28 @@
-import React, { useState } from 'react'
-import Navbar from './components/Navbar/Navbar'
+import React, { useState, lazy, Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
-import Cart from './pages/Cart/Cart'
+import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Login from './components/Login/Login'
-import Verify from './pages/Verify/Verify'
-import MyOrders from './pages/MyOrders/MyOrders'
+
+// Lazy load page components for code splitting
+const Home = lazy(() => import('./pages/Home/Home'))
+const PlaceOrder = lazy(() => import('./pages/PlaceOrder/PlaceOrder'))
+const Cart = lazy(() => import('./pages/Cart/Cart'))
+const Verify = lazy(() => import('./pages/Verify/Verify'))
+const MyOrders = lazy(() => import('./pages/MyOrders/MyOrders'))
+
+// Loading component for Suspense fallback
+const Loading = () => (
+  <div style={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    height: '100vh',
+    fontSize: '1.5rem'
+  }}>
+    Loading...
+  </div>
+)
 
 const App = () => {
   const [login, setLogin] = useState(false)
@@ -16,13 +31,15 @@ const App = () => {
       {login ? <Login setLogin={setLogin} /> : <></>}
       <div className='app'>
         <Navbar setLogin={setLogin} />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/cart' element={<Cart />} />
-          <Route path='/order' element={<PlaceOrder />} />
-          <Route path='/verify' element={<Verify />} />
-          <Route path='/myorders' element={<MyOrders/>}/>
-        </Routes>
+        <Suspense fallback={<Loading />}>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path='/order' element={<PlaceOrder />} />
+            <Route path='/verify' element={<Verify />} />
+            <Route path='/myorders' element={<MyOrders/>}/>
+          </Routes>
+        </Suspense>
       </div>
       <Footer />
     </>

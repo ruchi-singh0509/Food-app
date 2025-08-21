@@ -2,76 +2,119 @@ import React, { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom'
+import SEO from '../../components/SEO/SEO'
 
 const Cart = () => {
   const { cartItems, food_list, removeFromCart, getTotalCartAmount, url } = useContext(StoreContext)
-  const navigate= useNavigate();
+  const navigate = useNavigate();
+  
+  // Handle keyboard events for accessibility
+  const handleKeyDown = (e, action) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      action();
+    }
+  };
   return (
-    <div className='cart'>
-      <div className="cart-items">
-        <div className="cart-items-title">
-          <p>Items</p>
-          <p>Title</p>
-          <p>Price</p>
-          <p>Quantity</p>
-          <p>Total</p>
-          <p>Remove</p>
+    <main className='cart' aria-labelledby="cart-heading">
+      <SEO 
+        title="Shopping Cart - Review Your Order"
+        description="Review your food order, adjust quantities, and proceed to checkout. Fast and secure payment options available."
+        keywords="food cart, checkout, online order, food delivery cart"
+      />
+      <h1 id="cart-heading" className="visually-hidden">Shopping Cart</h1>
+      
+      <section className="cart-items" aria-label="Cart items">
+        <div className="cart-items-title" role="row" aria-rowindex="1">
+          <div role="columnheader">Items</div>
+          <div role="columnheader">Title</div>
+          <div role="columnheader">Price</div>
+          <div role="columnheader">Quantity</div>
+          <div role="columnheader">Total</div>
+          <div role="columnheader">Remove</div>
         </div>
         <br />
         <hr />
+        
         {food_list.map((item, index) => {
           if (cartItems[item._id] > 0) {
             return (
-
-              <div>
-                <div className="cart-items-title cart-items-item">
-                  <img src={url+"/images/"+item.image} alt="" />
-                  <p>{item.name}</p>
-                  <p>${item.price}</p>
-                  <p>{cartItems[item._id]}</p>
-                  <p>${item.price * cartItems[item._id]}</p>
-                  <p onClick={() => removeFromCart(item._id)} className='cross'>x</p>
+              <div key={item._id} role="rowgroup">
+                <div className="cart-items-title cart-items-item" role="row" aria-rowindex={index + 2}>
+                  <div role="cell">
+                    <img src={url+"/images/"+item.image} alt={item.name} />
+                  </div>
+                  <div role="cell">{item.name}</div>
+                  <div role="cell" aria-label={`Price: ${item.price} dollars`}>${item.price}</div>
+                  <div role="cell" aria-label={`Quantity: ${cartItems[item._id]}`}>{cartItems[item._id]}</div>
+                  <div role="cell" aria-label={`Total: ${item.price * cartItems[item._id]} dollars`}>${item.price * cartItems[item._id]}</div>
+                  <div role="cell">
+                    <button 
+                      className="remove-button" 
+                      onClick={() => removeFromCart(item._id)} 
+                      onKeyDown={(e) => handleKeyDown(e, () => removeFromCart(item._id))}
+                      aria-label={`Remove ${item.name} from cart`}
+                    >
+                      <span className='cross' aria-hidden="true">x</span>
+                    </button>
+                  </div>
                 </div>
                 <hr />
               </div>
-
-
-
             )
           }
+          return null;
         })}
-      </div>
+      </section>
       <div className="cart-bottom">
-        <div className="cart-total">
-          <h2>Cart Total</h2>
+        <section className="cart-total" aria-labelledby="cart-total-heading">
+          <h2 id="cart-total-heading">Cart Total</h2>
           <div>
             <div className="cart-total-details">
-              <p>Subtotal</p>
-              <p>${getTotalCartAmount()}</p>
+              <span>Subtotal</span>
+              <span aria-label={`Subtotal: ${getTotalCartAmount()} dollars`}>${getTotalCartAmount()}</span>
             </div>
             <hr />
             <div className="cart-total-details">
-              <p>Delivery Charges</p>
-              <p>${getTotalCartAmount()===0?0:2}</p>
+              <span>Delivery Charges</span>
+              <span aria-label={`Delivery charges: ${getTotalCartAmount()===0?0:2} dollars`}>${getTotalCartAmount()===0?0:2}</span>
             </div>
             <hr />
             <div className="cart-total-details">
-              <b>Total</b>
-              <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
+              <strong>Total</strong>
+              <strong aria-label={`Total: ${getTotalCartAmount()===0?0:getTotalCartAmount()+2} dollars`}>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</strong>
             </div>
-
           </div>
-          <button onClick={()=>navigate('/order')}>Proceed To Checkout</button>
-        </div>
-        <div className="cart-promocode">
+          <button 
+            onClick={() => navigate('/order')}
+            onKeyDown={(e) => handleKeyDown(e, () => navigate('/order'))}
+            aria-label="Proceed to checkout"
+          >
+            Proceed To Checkout
+          </button>
+        </section>
+        
+        <section className="cart-promocode" aria-labelledby="promo-heading">
           <div>
-            <p>Have a promo code? Enter it here</p>
-            <div className='cart-promocode-input'>
-              <input type="text" placeholder='promocode' />
-              <button>Submit</button>
+            <h3 id="promo-heading">Have a promo code? Enter it here</h3>
+            <div className='cart-promocode-input' role="form" aria-labelledby="promo-heading">
+              <label htmlFor="promocode" className="visually-hidden">Promo code</label>
+              <input 
+                type="text" 
+                id="promocode"
+                name="promocode"
+                placeholder='promocode' 
+                aria-label="Enter promo code"
+              />
+              <button 
+                type="submit"
+                aria-label="Apply promo code"
+              >
+                Submit
+              </button>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   )

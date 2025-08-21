@@ -4,6 +4,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useContext } from 'react';
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
+import SEO from '../../components/SEO/SEO';
 
 const Verify = () => {
 
@@ -31,6 +32,11 @@ const Verify = () => {
 
     return (
         <div className='verify'>
+            <SEO 
+                title="Verifying Payment - Processing Your Order"
+                description="We're verifying your payment and processing your food order. Please wait a moment."
+                keywords="payment verification, order processing, food delivery confirmation"
+            />
             <div className="spinner"></div>
         </div>
     )
