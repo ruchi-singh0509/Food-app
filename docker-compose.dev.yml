@@ -1,0 +1,87 @@
+version: '3.8'
+
+services:
+  # Backend service with hot-reloading
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: food-app-backend-dev
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URL=mongodb://mongo:27017/food-app
+      - JWT_SECRET=dev_jwt_secret
+      - SESSION_SECRET=dev_session_secret
+      - STRIPE_KEY=your_test_stripe_key
+      - CORS_ORIGIN=http://localhost:5173,http://localhost:5174
+      - PORT=4000
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+    command: npm run dev
+
+  # Frontend service with hot-reloading
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    container_name: food-app-frontend-dev
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:4000/api
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    command: npm run dev -- --host
+
+  # Admin service with hot-reloading
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile.dev
+    container_name: food-app-admin-dev
+    restart: unless-stopped
+    ports:
+      - "5174:5174"
+    environment:
+      - VITE_API_URL=http://localhost:4000/api
+    volumes:
+      - ./admin:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    command: npm run dev -- --host
+
+  # MongoDB service
+  mongo:
+    image: mongo:latest
+    container_name: food-app-mongo-dev
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data-dev:/data/db
+    networks:
+      - app-network
+
+volumes:
+  mongo-data-dev:
+
+networks:
+  app-network:
+    driver: bridge

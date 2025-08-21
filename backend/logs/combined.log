@@ -1,0 +1,1232 @@
+{"level":"error","message":"This is an ERROR level message","service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"warn","message":"This is a WARN level message","service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"info","message":"This is an INFO level message","service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"debug","message":"This is a DEBUG level message","service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1479741440,"processUsage":7799008,"processUsageFormatted":"7.44 MB","total":8502722560,"used":7022981120,"usedPercentage":"82.60"},"requests":{"avgResponseTime":0,"error":0,"success":0,"total":0},"uptime":0},"service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"info","message":"System monitoring started","service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"info","message":"Current system metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1479741440,"processUsage":7835856,"processUsageFormatted":"7.47 MB","total":8502722560,"used":7022981120,"usedPercentage":"82.60"},"requests":{"avgResponseTime":"45.91","error":1,"success":10,"total":11},"uptime":0},"service":"food-app-backend","timestamp":"2025-08-20 22:33:58"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1482121216,"processUsage":7166656,"processUsageFormatted":"6.83 MB","total":8502722560,"used":7020601344,"usedPercentage":"82.57"},"requests":{"avgResponseTime":"45.91","error":1,"success":10,"total":11},"uptime":5},"service":"food-app-backend","timestamp":"2025-08-20 22:34:03"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1476575232,"processUsage":5761112,"processUsageFormatted":"5.49 MB","total":8502722560,"used":7026147328,"usedPercentage":"82.63"},"requests":{"avgResponseTime":"45.91","error":1,"success":10,"total":11},"uptime":10},"service":"food-app-backend","timestamp":"2025-08-20 22:34:08"}
+{"level":"info","message":"System monitoring stopped","service":"food-app-backend","timestamp":"2025-08-20 22:34:08"}
+{"level":"info","message":"Server is running on http://localhost:4000 in development mode","service":"food-app-backend","timestamp":"2025-08-20 23:05:20"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1415004160,"processUsage":41258304,"processUsageFormatted":"39.35 MB","total":8502722560,"used":7087718400,"usedPercentage":"83.36"},"requests":{"avgResponseTime":0,"error":0,"success":0,"total":0},"uptime":1},"service":"food-app-backend","timestamp":"2025-08-20 23:05:21"}
+{"level":"info","message":"System monitoring started","service":"food-app-backend","timestamp":"2025-08-20 23:05:21"}
+{"level":"info","message":"GET /api-docs?ide_webview_request_time=1755711327521 301 23.621 ms - 197 {}","service":"food-app-backend","timestamp":"2025-08-20 23:05:28"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 200 12.804 ms - 3091 {}","service":"food-app-backend","timestamp":"2025-08-20 23:05:28"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 1.965 ms - 44517 {}","service":"food-app-backend","timestamp":"2025-08-20 23:05:28"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 200 11.023 ms - 155212 {}","service":"food-app-backend","timestamp":"2025-08-20 23:05:28"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 200 78.313 ms - 229223 {}","service":"food-app-backend","timestamp":"2025-08-20 23:05:28"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 200 80.856 ms - 1485855 {}","service":"food-app-backend","timestamp":"2025-08-20 23:05:28"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1668079616,"processUsage":30093312,"processUsageFormatted":"28.70 MB","total":8502722560,"used":6834642944,"usedPercentage":"80.38"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":301},"service":"food-app-backend","timestamp":"2025-08-20 23:10:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1784524800,"processUsage":30787312,"processUsageFormatted":"29.36 MB","total":8502722560,"used":6718197760,"usedPercentage":"79.01"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":601},"service":"food-app-backend","timestamp":"2025-08-20 23:15:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1672724480,"processUsage":30261080,"processUsageFormatted":"28.86 MB","total":8502722560,"used":6829998080,"usedPercentage":"80.33"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":901},"service":"food-app-backend","timestamp":"2025-08-20 23:20:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1698443264,"processUsage":31118016,"processUsageFormatted":"29.68 MB","total":8502722560,"used":6804279296,"usedPercentage":"80.02"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":1201},"service":"food-app-backend","timestamp":"2025-08-20 23:25:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1656217600,"processUsage":31567064,"processUsageFormatted":"30.10 MB","total":8502722560,"used":6846504960,"usedPercentage":"80.52"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":1501},"service":"food-app-backend","timestamp":"2025-08-20 23:30:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1639251968,"processUsage":31500016,"processUsageFormatted":"30.04 MB","total":8502722560,"used":6863470592,"usedPercentage":"80.72"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":1801},"service":"food-app-backend","timestamp":"2025-08-20 23:35:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1577533440,"processUsage":31205128,"processUsageFormatted":"29.76 MB","total":8502722560,"used":6925189120,"usedPercentage":"81.45"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":2101},"service":"food-app-backend","timestamp":"2025-08-20 23:40:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1048825856,"processUsage":31413984,"processUsageFormatted":"29.96 MB","total":8502722560,"used":7453896704,"usedPercentage":"87.66"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":2401},"service":"food-app-backend","timestamp":"2025-08-20 23:45:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1110847488,"processUsage":31917120,"processUsageFormatted":"30.44 MB","total":8502722560,"used":7391875072,"usedPercentage":"86.94"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":2701},"service":"food-app-backend","timestamp":"2025-08-20 23:50:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1252794368,"processUsage":31306032,"processUsageFormatted":"29.86 MB","total":8502722560,"used":7249928192,"usedPercentage":"85.27"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":3001},"service":"food-app-backend","timestamp":"2025-08-20 23:55:21"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1254543360,"processUsage":31524760,"processUsageFormatted":"30.06 MB","total":8502722560,"used":7248179200,"usedPercentage":"85.25"},"requests":{"avgResponseTime":"140.17","error":0,"success":6,"total":6},"uptime":3301},"service":"food-app-backend","timestamp":"2025-08-21 00:00:21"}
+{"level":"warn","message":"Redis not connected, using memory session store","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"Server is running on http://localhost:4000 in development mode","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1540841472,"processUsage":42044376,"processUsageFormatted":"40.10 MB","total":8502722560,"used":6961881088,"usedPercentage":"81.88"},"requests":{"avgResponseTime":0,"error":0,"success":0,"total":0},"uptime":1},"service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"System monitoring started","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"Redis reconnecting in 100ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 50.143 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 200 4.364 ms - 3091 {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"level":"info","message":"Redis reconnecting in 200ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:19"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 2.265 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 126.835 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 147.487 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 272.934 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"level":"info","message":"Redis reconnecting in 400ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:20"}
+{"level":"info","message":"Redis reconnecting in 800ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:21"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:21"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:21"}
+{"level":"info","message":"Redis reconnecting in 1600ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:21"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:21"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:23"}
+{"level":"info","message":"Redis reconnecting in 3200ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:23"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:23"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:26"}
+{"level":"info","message":"Redis reconnecting in 6400ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:26"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:26"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:33"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:33"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:33"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 5.357 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:34"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 2.141 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:35"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 74.761 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:35"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 90.093 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:35"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 204.367 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:43"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:43"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:43"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 125.326 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:44"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 200 3.221 ms - 3091 {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:44"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 1.442 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:45"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 27.233 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:45"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 45.832 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:45"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 108.790 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:45"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 3.261 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:49"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 1.941 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:50"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 29.246 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:50"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 47.663 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:50"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 58.968 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:03:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:03:53"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:03:53"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:03:53"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:04:03"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:04:03"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:04:03"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:04:13"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:04:13"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:04:13"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:04:23"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:04:23"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:04:23"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:04:33"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:04:33"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:04:33"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:04:43"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:04:43"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:04:43"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:04:53"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:04:53"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:04:53"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:05:03"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:05:03"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:05:03"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:05:13"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:05:13"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:05:13"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:05:23"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:05:23"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:05:23"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:05:33"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:05:33"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:05:33"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:05:43"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:05:43"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:05:43"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:05:53"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:05:53"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:05:53"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 2.809 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:06:03"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:06:03"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:06:03"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:06:04"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 3.232 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:06:04"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 1.610 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:06:04"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 92.988 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:06:04"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 278.942 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:06:05"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:06:14"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:06:14"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:06:14"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:06:24"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:06:24"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:06:24"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:06:34"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:06:34"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:06:34"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:06:44"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:06:44"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:06:44"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:06:54"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:06:54"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:06:54"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:07:04"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:07:04"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:07:04"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:07:14"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:07:14"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:07:14"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:07:24"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:07:24"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:07:24"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:07:34"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:07:34"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:07:34"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:07:44"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:07:44"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:07:44"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:07:54"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:07:54"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:07:54"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:08:04"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:08:04"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:08:04"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:08:14"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:08:14"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:08:14"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1292783616,"processUsage":33577152,"processUsageFormatted":"32.02 MB","total":8502722560,"used":7209938944,"usedPercentage":"84.80"},"requests":{"avgResponseTime":"128.81","error":0,"success":27,"total":27},"uptime":301},"service":"food-app-backend","timestamp":"2025-08-21 00:08:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:08:24"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:08:24"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:08:24"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:08:34"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:08:34"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:08:34"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:08:44"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:08:44"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:08:44"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:08:54"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:08:54"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:08:54"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:09:04"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:09:04"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:09:04"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:09:14"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:09:14"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:09:14"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:09:24"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:09:24"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:09:24"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:09:34"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:09:34"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:09:34"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:09:44"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:09:44"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:09:44"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:09:54"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:09:54"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:09:54"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:10:04"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:10:04"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:10:04"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:10:15"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:10:15"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:10:15"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:10:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:10:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:10:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:10:35"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:10:35"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:10:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:10:45"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:10:45"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:10:45"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:10:55"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:10:55"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:10:55"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:11:05"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:11:05"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:11:05"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:11:15"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:11:15"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:11:15"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:11:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:11:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:11:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:11:35"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:11:35"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:11:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:11:45"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:11:45"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:11:45"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:11:55"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:11:55"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:11:55"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:12:05"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:12:05"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:12:05"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:12:15"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:12:15"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:12:15"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:12:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:12:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:12:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:12:35"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:12:35"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:12:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:12:45"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:12:45"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:12:45"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:12:55"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:12:55"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:12:55"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:13:05"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:13:05"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:13:05"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:13:15"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:13:15"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:13:15"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1318371328,"processUsage":34013160,"processUsageFormatted":"32.44 MB","total":8502722560,"used":7184351232,"usedPercentage":"84.49"},"requests":{"avgResponseTime":"128.81","error":0,"success":27,"total":27},"uptime":601},"service":"food-app-backend","timestamp":"2025-08-21 00:13:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:13:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:13:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:13:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:13:35"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:13:35"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:13:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:13:45"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:13:45"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:13:45"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 2.571 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:13:48"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 1.989 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:13:49"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 3.727 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:13:49"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 150.835 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:13:49"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 432.855 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:13:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:13:55"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:13:55"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:13:55"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:14:05"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:14:05"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:14:05"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:14:15"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:14:15"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:14:15"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:14:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:14:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:14:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:14:35"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:14:35"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:14:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:14:45"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:14:45"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:14:45"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:14:55"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:14:55"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:14:55"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:15:05"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:15:05"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:15:05"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:15:15"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:15:15"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:15:15"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:15:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:15:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:15:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:15:36"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:15:36"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:15:36"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:15:46"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:15:46"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:15:46"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:15:56"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:15:56"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:15:56"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:16:06"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:16:06"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:16:06"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:16:16"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:16:16"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:16:16"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 2.728 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:24"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 1.956 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:24"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 1.490 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:24"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 26.407 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:24"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 36.894 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:24"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:16:26"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:16:26"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:16:26"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 2.258 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:29"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 2.170 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:29"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 3.570 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:29"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 14.700 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:29"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 6.564 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:16:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:16:36"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:16:36"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:16:36"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:16:46"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:16:46"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:16:46"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:16:56"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:16:56"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:16:56"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:17:06"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:17:06"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:17:06"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:17:16"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:17:16"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:17:16"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:17:26"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:17:26"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:17:26"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:17:36"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:17:36"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:17:36"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:17:46"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:17:46"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:17:46"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:17:56"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:17:56"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:17:56"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:18:06"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:18:06"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:18:06"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:18:16"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:18:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:18:17"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1135788032,"processUsage":35335264,"processUsageFormatted":"33.70 MB","total":8502722560,"used":7366934528,"usedPercentage":"86.64"},"requests":{"avgResponseTime":"94.80","error":0,"success":42,"total":42},"uptime":901},"service":"food-app-backend","timestamp":"2025-08-21 00:18:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:18:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:18:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:18:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:18:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:18:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:18:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:18:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:18:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:18:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:18:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:18:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:18:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:19:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:19:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:19:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:19:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:19:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:19:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:19:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:19:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:19:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:19:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:19:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:19:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:19:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:19:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:19:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:19:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:19:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:19:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:20:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:20:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:20:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:20:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:20:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:20:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:20:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:20:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:20:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:20:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:20:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:20:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:20:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:20:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:20:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:20:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:20:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:20:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:21:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:21:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:21:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:21:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:21:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:21:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:21:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:21:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:21:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:21:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:21:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:21:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:21:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:21:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:21:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:21:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:21:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:21:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:22:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:22:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:22:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:22:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:22:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:22:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:22:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:22:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:22:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:22:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:22:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:22:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:22:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:22:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:22:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:22:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:22:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:22:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:23:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:23:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:23:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:23:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:23:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:23:17"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1085267968,"processUsage":35655304,"processUsageFormatted":"34.00 MB","total":8502722560,"used":7417454592,"usedPercentage":"87.24"},"requests":{"avgResponseTime":"94.80","error":0,"success":42,"total":42},"uptime":1201},"service":"food-app-backend","timestamp":"2025-08-21 00:23:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:23:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:23:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:23:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:23:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:23:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:23:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:23:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:23:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:23:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:23:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:23:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:23:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:24:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:24:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:24:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:24:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:24:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:24:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:24:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:24:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:24:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:24:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:24:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:24:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:24:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:24:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:24:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:25:00"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:25:00"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:25:00"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:25:10"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:25:11"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:25:11"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:25:21"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:25:21"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:25:21"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:25:31"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:25:31"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:25:31"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:25:41"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:25:41"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:25:41"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:25:51"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:25:51"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:25:51"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:26:01"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:26:01"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:26:01"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:26:11"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:26:11"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:26:11"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:26:21"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:26:21"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:26:21"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:26:31"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:26:31"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:26:31"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:26:41"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:26:41"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:26:41"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:26:51"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:26:51"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:26:51"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:27:01"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:27:01"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:27:01"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:27:11"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:27:12"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:27:12"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:27:22"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:27:22"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:27:22"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:27:32"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:27:33"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:27:33"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:27:43"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:27:43"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:27:43"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:27:53"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:27:53"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:27:53"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:28:03"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:28:03"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:28:03"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:28:13"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:28:13"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:28:13"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1010765824,"processUsage":35998424,"processUsageFormatted":"34.33 MB","total":8502722560,"used":7491956736,"usedPercentage":"88.11"},"requests":{"avgResponseTime":"94.80","error":0,"success":42,"total":42},"uptime":1501},"service":"food-app-backend","timestamp":"2025-08-21 00:28:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:28:23"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:28:23"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:28:23"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:28:33"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:28:33"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:28:33"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:28:43"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:28:43"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:28:44"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:28:54"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:28:54"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:28:54"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:29:04"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:29:04"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:29:04"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:29:14"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:29:14"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:29:14"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:29:24"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:29:24"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:29:24"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:29:34"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:29:34"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:29:34"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:29:44"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:29:44"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:29:44"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:29:54"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:29:54"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:29:54"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:30:04"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:30:04"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:30:04"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:30:14"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:30:14"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:30:15"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:30:25"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:30:25"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:30:25"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:30:35"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:30:35"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:30:35"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:30:45"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:30:45"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:30:45"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:30:55"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:30:55"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:30:56"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:31:06"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:31:06"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:31:06"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:31:16"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:31:16"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:31:16"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:31:26"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:31:26"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:31:26"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:31:36"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:31:41"}
+{"error":"Connection timeout","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:31:41"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:31:51"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:31:51"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:31:51"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:32:01"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:32:01"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:32:01"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:32:11"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:32:11"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:32:11"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:32:21"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:32:21"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:32:21"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:32:31"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:32:31"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:32:31"}
+{"level":"info","message":"GET /api-docs/?ide_webview_request_time=1755711327521 304 4.788 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:32:38"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 3.484 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:32:39"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 3.601 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:32:39"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 30.084 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:32:39"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 166.820 ms - - {}","service":"food-app-backend","timestamp":"2025-08-21 00:32:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:32:41"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:32:41"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:32:41"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:32:51"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:32:51"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:32:51"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:33:01"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:33:01"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:33:01"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:33:11"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:33:11"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:33:11"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":922300416,"processUsage":36382976,"processUsageFormatted":"34.70 MB","total":8502722560,"used":7580422144,"usedPercentage":"89.15"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":1801},"service":"food-app-backend","timestamp":"2025-08-21 00:33:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:33:21"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:33:21"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:33:21"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:33:31"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:33:31"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:33:31"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:33:41"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:33:41"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:33:41"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:33:51"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:33:51"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:33:51"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:34:01"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:34:01"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:34:01"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:34:11"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:34:16"}
+{"error":"Connection timeout","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:34:16"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:34:26"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:34:26"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:34:26"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:34:36"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:34:36"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:34:36"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:34:46"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:34:46"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:34:46"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:34:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:34:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:34:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:35:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:35:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:35:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:35:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:35:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:35:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:35:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:35:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:35:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:35:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:35:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:35:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:35:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:35:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:35:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:35:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:35:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:35:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:36:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:36:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:36:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:36:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:36:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:36:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:36:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:36:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:36:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:36:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:36:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:36:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:36:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:36:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:36:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:36:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:36:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:36:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:37:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:37:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:37:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:37:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:37:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:37:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:37:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:37:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:37:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:37:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:37:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:37:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:37:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:37:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:37:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:37:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:37:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:37:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:38:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:38:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:38:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:38:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:38:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:38:17"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1295151104,"processUsage":37178528,"processUsageFormatted":"35.46 MB","total":8502722560,"used":7207571456,"usedPercentage":"84.77"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":2101},"service":"food-app-backend","timestamp":"2025-08-21 00:38:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:38:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:38:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:38:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:38:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:38:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:38:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:38:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:38:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:38:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:38:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:38:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:38:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:39:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:39:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:39:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:39:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:39:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:39:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:39:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:39:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:39:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:39:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:39:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:39:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:39:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:39:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:39:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:39:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:39:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:39:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:40:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:40:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:40:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:40:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:40:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:40:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:40:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:40:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:40:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:40:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:40:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:40:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:40:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:40:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:40:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:40:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:40:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:40:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:41:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:41:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:41:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:41:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:41:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:41:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:41:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:41:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:41:27"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:41:37"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:41:37"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:41:37"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:41:47"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:41:47"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:41:47"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:41:57"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:41:57"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:41:57"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:42:07"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:42:07"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:42:07"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:42:17"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:42:17"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:42:17"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:42:27"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:42:27"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:42:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:42:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:42:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:42:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:42:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:42:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:42:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:42:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:42:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:42:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:43:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:43:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:43:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:43:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:43:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:43:18"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1207582720,"processUsage":36673416,"processUsageFormatted":"34.97 MB","total":8502722560,"used":7295139840,"usedPercentage":"85.80"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":2401},"service":"food-app-backend","timestamp":"2025-08-21 00:43:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:43:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:43:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:43:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:43:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:43:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:43:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:43:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:43:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:43:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:43:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:43:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:43:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:44:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:44:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:44:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:44:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:44:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:44:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:44:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:44:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:44:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:44:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:44:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:44:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:44:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:44:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:44:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:44:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:44:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:44:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:45:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:45:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:45:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:45:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:45:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:45:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:45:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:45:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:45:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:45:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:45:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:45:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:45:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:45:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:45:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:45:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:45:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:45:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:46:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:46:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:46:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:46:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:46:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:46:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:46:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:46:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:46:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:46:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:46:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:46:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:46:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:46:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:46:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:46:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:46:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:46:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:47:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:47:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:47:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:47:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:47:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:47:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:47:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:47:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:47:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:47:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:47:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:47:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:47:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:47:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:47:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:47:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:47:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:47:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:48:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:48:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:48:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:48:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:48:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:48:18"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1145012224,"processUsage":37452640,"processUsageFormatted":"35.72 MB","total":8502722560,"used":7357710336,"usedPercentage":"86.53"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":2701},"service":"food-app-backend","timestamp":"2025-08-21 00:48:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:48:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:48:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:48:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:48:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:48:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:48:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:48:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:48:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:48:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:48:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:48:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:48:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:49:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:49:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:49:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:49:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:49:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:49:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:49:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:49:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:49:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:49:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:49:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:49:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:49:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:49:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:49:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:49:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:49:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:49:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:50:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:50:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:50:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:50:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:50:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:50:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:50:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:50:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:50:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:50:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:50:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:50:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:50:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:50:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:50:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:50:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:50:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:50:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:51:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:51:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:51:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:51:18"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:51:18"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:51:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:51:28"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:51:28"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:51:28"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:51:38"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:51:38"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:51:38"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:51:48"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:51:48"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:51:48"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:51:58"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:51:58"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:51:58"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:52:08"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:52:08"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:52:08"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:52:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:52:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:52:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:52:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:52:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:52:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:52:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:52:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:52:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:52:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:52:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:52:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:52:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:52:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:52:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:53:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:53:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:53:09"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1349500928,"processUsage":37146856,"processUsageFormatted":"35.43 MB","total":8502722560,"used":7153221632,"usedPercentage":"84.13"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":3001},"service":"food-app-backend","timestamp":"2025-08-21 00:53:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:53:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:53:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:53:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:53:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:53:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:53:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:53:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:53:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:53:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:53:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:53:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:53:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:53:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:53:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:53:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:54:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:54:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:54:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:54:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:54:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:54:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:54:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:54:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:54:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:54:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:54:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:54:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:54:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:54:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:54:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:54:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:54:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:54:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:55:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:55:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:55:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:55:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:55:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:55:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:55:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:55:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:55:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:55:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:55:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:55:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:55:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:55:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:55:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:55:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:55:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:55:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:56:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:56:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:56:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:56:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:56:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:56:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:56:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:56:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:56:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:56:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:56:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:56:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:56:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:56:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:56:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:56:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:56:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:56:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:57:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:57:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:57:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:57:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:57:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:57:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:57:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:57:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:57:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:57:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:57:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:57:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:57:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:57:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:57:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:57:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:57:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:57:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:58:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:58:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:58:09"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1342935040,"processUsage":37512808,"processUsageFormatted":"35.78 MB","total":8502722560,"used":7159787520,"usedPercentage":"84.21"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":3301},"service":"food-app-backend","timestamp":"2025-08-21 00:58:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:58:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:58:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:58:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:58:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:58:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:58:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:58:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:58:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:58:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:58:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:58:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:58:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:58:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:58:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:58:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:59:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:59:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:59:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:59:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:59:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:59:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:59:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:59:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:59:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:59:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:59:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:59:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:59:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:59:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:59:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 00:59:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 00:59:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 00:59:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:00:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:00:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:00:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:00:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:00:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:00:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:00:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:00:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:00:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:00:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:00:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:00:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:00:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:00:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:00:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:00:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:00:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:00:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:01:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:01:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:01:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:01:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:01:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:01:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:01:29"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:01:29"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:01:29"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:01:39"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:01:39"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:01:39"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:01:49"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:01:49"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:01:49"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:01:59"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:01:59"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:01:59"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:02:09"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:02:09"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:02:09"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:02:19"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:02:19"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:02:19"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:02:30"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:02:30"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:02:30"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:02:40"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:02:40"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:02:40"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:02:50"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:02:50"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:02:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:03:00"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:03:00"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:03:00"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:03:10"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:03:10"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:03:10"}
+{"level":"info","message":"System metrics","metrics":{"cpu":{"cores":4,"loadAvg":[0,0,0]},"memoryUsage":{"free":1317478400,"processUsage":37995456,"processUsageFormatted":"36.24 MB","total":8502722560,"used":7185244160,"usedPercentage":"84.51"},"requests":{"avgResponseTime":"133.80","error":0,"success":47,"total":47},"uptime":3601},"service":"food-app-backend","timestamp":"2025-08-21 01:03:18"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:03:20"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:03:20"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:03:20"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:03:30"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:03:30"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:03:30"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:03:40"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:03:40"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:03:40"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:03:50"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:03:50"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:03:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:04:00"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:04:00"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:04:00"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:04:10"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:04:10"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:04:10"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:04:20"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:04:20"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:04:20"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:04:30"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:04:30"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:04:30"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:04:40"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:04:40"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:04:40"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:04:50"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:04:50"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:04:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:05:00"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:05:00"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:05:00"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:05:10"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:05:10"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:05:10"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:05:20"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:05:20"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:05:20"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:05:30"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:05:30"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:05:30"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:05:40"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:05:40"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:05:40"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:05:50"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:05:50"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:05:50"}
+{"level":"info","message":"Redis Client Reconnecting","service":"food-app-backend","timestamp":"2025-08-21 01:06:00"}
+{"level":"info","message":"Redis reconnecting in 10000ms...","service":"food-app-backend","timestamp":"2025-08-21 01:06:00"}
+{"error":"","level":"error","message":"Redis Client Error","service":"food-app-backend","timestamp":"2025-08-21 01:06:00"}

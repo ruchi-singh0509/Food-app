@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # Backend service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: food-app-backend
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URL=mongodb://mongo:27017/food-app
+      - JWT_SECRET=your_jwt_secret
+      - SESSION_SECRET=your_session_secret
+      - STRIPE_KEY=your_stripe_key
+      - CORS_ORIGIN=http://localhost:5173,http://localhost:5174
+      - PORT=4000
+      - RATE_LIMIT_MAX=100
+      - RATE_LIMIT_WINDOW_MS=3600000
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - mongo
+
+  # Frontend service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: food-app-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    environment:
+      - VITE_API_URL=http://localhost:4000/api
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+  # Admin service
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: food-app-admin
+    restart: unless-stopped
+    ports:
+      - "5174:80"
+    environment:
+      - VITE_API_URL=http://localhost:4000/api
+    volumes:
+      - ./admin:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+  # MongoDB service
+  mongo:
+    image: mongo:latest
+    container_name: food-app-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

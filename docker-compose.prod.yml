@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  # Backend service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: food-app-backend
+    restart: always
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URL=${MONGODB_URL}
+      - JWT_SECRET=${JWT_SECRET}
+      - SESSION_SECRET=${SESSION_SECRET}
+      - STRIPE_KEY=${STRIPE_KEY}
+      - CORS_ORIGIN=${CORS_ORIGIN}
+      - PORT=4000
+      - RATE_LIMIT_MAX=50
+      - RATE_LIMIT_WINDOW_MS=3600000
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+  # Frontend service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: food-app-frontend
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - VITE_API_URL=${API_URL}
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  # Admin service
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: food-app-admin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      - VITE_API_URL=${API_URL}
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  # MongoDB service
+  mongo:
+    image: mongo:latest
+    container_name: food-app-mongo
+    restart: always
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+  # Nginx service for reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: food-app-nginx
+    restart: always
+    ports:
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - frontend
+      - admin
+      - backend
+    networks:
+      - app-network
+
+volumes:
+  mongo-data:
+
+networks:
+  app-network:
+    driver: bridge

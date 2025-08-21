@@ -1,8 +1,7 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-
-import { Await } from "react-router-dom";
 import foodModel from "../models/foodModel.js";
-import fs from 'fs'
+import fs from 'fs';
+import { clearCache } from "../config/redis.js";
+import { logger } from "../config/logger.js";
 
 //add food items
 
@@ -23,10 +22,15 @@ const addFoodItem = async (req, res) => {
 
     try {
         await food.save();
+        
+        // Clear food list cache when a new item is added
+        await clearCache('cache:/api/food/list*');
+        logger.info('Food list cache cleared after adding new item');
+        
         res.json({ success: true, message: "Food Item Added" })
 
     } catch (error) {
-        console.log(error)
+        logger.error('Error adding food item', { error });
         res.json({ success: false, message: "Error" })
 
     }
@@ -53,13 +57,22 @@ const listFood = async(req,res) =>{
 const removeFood = async(req,res)=>{
     try {
         const food = await foodModel.findById(req.body.id)
+        if (!food) {
+            return res.status(404).json({success:false, message:"Food item not found"})
+        }
+        
         fs.unlink(`uploads/${food.image}`,()=>{})
 
         await foodModel.findByIdAndDelete(req.body.id);
-        res.json({success:true,message:"food items removed"})
+        
+        // Clear food list cache when an item is removed
+        await clearCache('cache:/api/food/list*');
+        logger.info('Food list cache cleared after removing item');
+        
+        res.json({success:true, message:"Food item removed"})
     } catch (error) {
-        console.log(error);
-        res.json({success:false,message:"error"})
+        logger.error('Error removing food item', { error });
+        res.json({success:false, message:"Error removing food item"})
         
     }
 
