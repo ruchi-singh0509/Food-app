@@ -1,4 +1,4 @@
-const { default: monitor, requestMonitoring } = require('../../utils/monitoring.js');
+import { default as monitor, requestMonitoring } from '../../utils/monitoring.js';
 
 describe('System Monitoring', () => {
   test('monitor should be defined', () => {
