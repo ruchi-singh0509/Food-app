@@ -1,29 +1,39 @@
 import { createClient } from 'redis';
 import { logger } from './logger.js';
 
-// Create Redis client
+// Create Redis client with limited reconnection attempts
 const redisClient = createClient({
   url: process.env.REDIS_URL || 'redis://localhost:6379',
   socket: {
     reconnectStrategy: (retries) => {
-      // Exponential backoff with max delay of 10 seconds
-      const delay = Math.min(Math.pow(2, retries) * 100, 10000);
-      logger.info(`Redis reconnecting in ${delay}ms...`);
+      // Stop trying to reconnect after 5 attempts
+      if (retries >= 5) {
+        logger.warn('Redis connection failed after 5 attempts. Disabling Redis.');
+        return false;
+      }
+      // Exponential backoff with max delay of 5 seconds
+      const delay = Math.min(Math.pow(2, retries) * 100, 5000);
+      logger.info(`Redis reconnecting in ${delay}ms... (attempt ${retries + 1}/5)`);
       return delay;
     }
   }
 });
 
+let redisAvailable = false;
+
 // Redis error handling
 redisClient.on('error', (err) => {
+  redisAvailable = false;
   logger.error('Redis Client Error', { error: err.message });
 });
 
 redisClient.on('connect', () => {
+  redisAvailable = true;
   logger.info('Redis Client Connected');
 });
 
 redisClient.on('reconnecting', () => {
+  redisAvailable = false;
   logger.info('Redis Client Reconnecting');
 });
 
@@ -43,8 +53,8 @@ const connectRedis = async () => {
 // Cache middleware
 const cache = (duration) => {
   return async (req, res, next) => {
-    // Skip caching for non-GET requests
-    if (req.method !== 'GET') {
+    // Skip caching for non-GET requests or if Redis is not available
+    if (req.method !== 'GET' || !redisAvailable) {
       return next();
     }
 
@@ -67,9 +77,13 @@ const cache = (duration) => {
 
       // Override res.json method to cache the response
       res.json = function (data) {
-        // Store the response in Redis cache
-        redisClient.setEx(key, duration, JSON.stringify(data));
-        logger.debug(`Cache set for ${key}, expires in ${duration}s`);
+        // Store the response in Redis cache only if Redis is available
+        if (redisAvailable) {
+          redisClient.setEx(key, duration, JSON.stringify(data)).catch(err => {
+            logger.error('Failed to cache response', { error: err.message, key });
+          });
+          logger.debug(`Cache set for ${key}, expires in ${duration}s`);
+        }
 
         // Call the original json method
         return originalJson.call(this, data);
