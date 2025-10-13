@@ -1,15 +1,15 @@
-const { logger, stream } = require('../../config/logger.js');
-const fs = require('fs');
-const path = require('path');
+import { logger, stream } from '../../config/logger.js';
+import { existsSync, mkdirSync, readFileSync } from 'fs';
+import { join } from 'path';
 
 // Get logs directory
-const logsDir = path.join(__dirname, '../../logs');
+const logsDir = join(__dirname, '../../logs');
 
 describe('Logger Configuration', () => {
   beforeAll(() => {
     // Ensure logs directory exists
-    if (!fs.existsSync(logsDir)) {
-      fs.mkdirSync(logsDir, { recursive: true });
+    if (!existsSync(logsDir)) {
+      mkdirSync(logsDir, { recursive: true });
     }
   });
 
@@ -35,10 +35,10 @@ describe('Logger Configuration', () => {
     // Check if combined.log exists and contains the test message
     // Note: This is an asynchronous operation, so we need to wait a bit
     setTimeout(() => {
-      const logFile = path.join(logsDir, 'combined.log');
-      expect(fs.existsSync(logFile)).toBe(true);
+      const logFile = join(logsDir, 'combined.log');
+      expect(existsSync(logFile)).toBe(true);
 
-      const logContent = fs.readFileSync(logFile, 'utf8');
+      const logContent = readFileSync(logFile, 'utf8');
       expect(logContent).toContain(testMessage);
     }, 100);
   });
